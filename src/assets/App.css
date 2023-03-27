@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Century Gothic";
+}
+
+body {
+    background-image: url("background.png");
+    background-position: center;
+}

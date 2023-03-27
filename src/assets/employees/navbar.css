@@ -1,0 +1,65 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    justify-items: cent;
+    background-color: #707A83;
+    border: 4px solid #000000;
+    padding: 15px 0;
+}
+
+.logo-img {
+    width: 70px;
+    margin-right: 10px;
+    align-self: center;
+}
+
+.emplImg {
+    width: 70px;
+    align-self: center;
+
+}
+
+.leftNav {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 50%;
+    font-size: 65px;
+    font-weight: bold;
+    color: #316691;
+    -webkit-text-stroke: 3px #B1BBC5;
+    padding: 10px 0;
+
+}
+
+.logOutImg {
+    width: 50px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.rightNav {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: right;
+    align-self: center;
+    align-items: center;
+    width: 45%;
+    font-weight: bold;
+    font-size: 30px;
+    color: #316691;
+    -webkit-text-stroke: 01px #B1BBC5;
+    padding: 10px 10px 10px 0;
+
+}
+
+.logOut {
+    cursor: pointer;
+}

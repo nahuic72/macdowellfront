@@ -1,0 +1,305 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.leftContainer {
+    width: 25%;
+}
+
+.rigthContainer {
+    width: 25%;
+}
+
+@media (min-width:800px) and (max-width:1700px) {
+
+
+    .centerContainer {
+        background-color: #BCEFFF;
+        position: relative;
+        border: 4px solid rgb(0, 0, 0);
+        border-radius: 80px;
+        width: 477px;
+        height: 680px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 350px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .topDiv {
+        text-align: center;
+        width: 100%;
+        margin-right: 2px;
+        height: 145px;
+        border-radius: 75px 75px 0 0;
+        background-color: #D9D9D9;
+    }
+
+    .welcome {
+        width: 270px !important;
+        margin-top: 10px;
+    }
+
+    .mcTitle {
+        width: 350px !important;
+    }
+
+    .centerDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 477px;
+        height: 415px;
+    }
+
+    .bottomDiv {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        align-self: flex-end;
+        width: 100%;
+        margin-right: 2px;
+        height: 145px;
+        border-radius: 0 0 75px 75px;
+        background-color: #D9D9D9;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+
+    }
+
+    .start {
+        padding: 15px 30px 15px 30px;
+        font-family: 'Century Gothic';
+        font-weight: bold;
+        background-color: #FBC9FF;
+        cursor: pointer;
+    }
+
+    /*CSS LastPage component*/
+
+    .vuelva {
+        width: 400px;
+        margin-top: 70px;
+        align-self: center;
+
+    }
+
+    .pronto {
+        width: 470px;
+        margin-top: 50px;
+
+    }
+
+    .mcTitleLast {
+        margin-top: 35px !important;
+        width: 380px;
+    }
+
+}
+
+@media (max-width:800px) {
+
+    .centerContainer {
+        background-color: #BCEFFF;
+        position: relative;
+        border: 4px solid rgb(0, 0, 0);
+        border-radius: 80px;
+        width: 394px;
+        height: 630px;
+    }
+
+    .logo {
+        width: 350px;
+        margin-top: 15px;
+        
+        text-align: center;
+    }
+
+    .topDiv {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 394px;
+        margin-right: 2px;
+        height: 145px;
+        border-radius: 75px 75px 0 0;
+        background-color: #D9D9D9;
+    }
+
+    .centerDiv{
+
+        width: 394px;
+    }
+
+    .welcome {
+        text-align: center;
+        width: 220px;
+        height: 43px;
+        margin-top: 10px;
+    }
+
+    .mcTitle {
+        width: 250px;
+        height: 50px;
+    }
+
+    .bottomDiv {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        align-self: flex-end;
+        width: 100%;
+        margin-right: 2px;
+        height: 120px;
+        border-radius: 0 0 75px 75px;
+        background-color: #D9D9D9;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+
+    }
+
+    .start {
+        padding: 15px 30px 15px 30px;
+        font-family: 'Century Gothic';
+        font-weight: bold;
+        background-color: #FBC9FF;
+        cursor: pointer;
+    }
+
+    /*CSS LastPage component*/
+
+    .vuelva {
+        width: 300px;
+        margin: 70px 20px 0 50px;
+
+    }
+
+    .pronto {
+        width: 350px;
+        margin: 50px 20px 0 20px;
+
+    }
+
+    .mcTitleLast {
+        width: 350px;
+        height: 70px;
+        margin-top: 35px;
+    }
+
+}
+
+@media (min-width:200px) and (max-width:400px) {
+
+    .centerContainer {
+        background-color: #BCEFFF;
+        position: relative;
+        border: 4px solid rgb(0, 0, 0);
+        border-radius: 80px;
+        width: 300px;
+        height: 550px;
+    }
+
+    .topDiv {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        margin-right: 2px;
+        height: 100px;
+        border-radius: 75px 75px 0 0;
+        background-color: #D9D9D9;
+    }
+
+    .welcome {
+        text-align: center;
+        width: 200px;
+        height: 39px;
+        margin-top: 10px;
+    }
+
+    .mcTitle,
+    .mcTitleLast {
+        width: 220px;
+        height: 43px;
+    }
+
+    .centerDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 300px;
+        height: 310px;
+    }
+
+    .logo {
+        width: 300px;
+        text-align: center;
+        align-self: center;
+    }
+
+    .bottomDiv {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        align-self: flex-end;
+        width: 100%;
+        margin-right: 2px;
+        height: 100px;
+        border-radius: 0 0 75px 75px;
+        background-color: #D9D9D9;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+
+    }
+
+    .start {
+        padding: 15px 30px 15px 30px;
+        font-family: 'Century Gothic';
+        font-weight: bold;
+        background-color: #FBC9FF;
+        cursor: pointer;
+    }
+
+    /*CSS LastPage component*/
+
+
+    .vuelva {
+        width: 250px;
+        margin: 70px 20px 0 20px;
+
+    }
+
+    .pronto {
+        width: 260px;
+        margin: 50px 20px 0 20px;
+
+    }
+
+    .mcTitleLast {
+        width: 250px;
+        height: 50px;
+        margin-top: 35px;
+    }
+
+}
